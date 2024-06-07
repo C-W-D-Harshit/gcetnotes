@@ -6,7 +6,7 @@ html {
   scroll-behavior: smooth;
 }
 :root {
-  --main-color: #00a78e;
+  --main-color: #2e48f5;
   --shadow-black-100: 0 5px 15px rgba(0, 0, 0, 0.2);
   --black-900: #000;
   --black-400: #646f87;
@@ -64,7 +64,7 @@ img {
 }
 .btn-1:hover {
   color: var(--white);
-  background-color: rgba(0, 167, 142, 0.7);
+  background-color: rgba(20, 67, 236, 0.7);
 }
 
 .section-padding {
