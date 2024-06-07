@@ -302,14 +302,19 @@ img {
   max-width: 50%;
   padding: 20px;
 }
+.about-section .about-imageus{
+  border-radius: 2rem;
+  width: 90%;
+  height: 90%;
+}
 .about-section .about-image .img-box {
   position: relative;
 }
 .about-section .about-image .img-box img {
-  max-width: 100%;
-  width: 100%;
-  z-index: 8;
-  border-radius: 10%;
+  border-radius: 2rem;
+  width: 10%;
+  height: 10%;
+
 }
 .about-section .about-content p {
   text-align: justify;
