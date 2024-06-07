@@ -340,6 +340,16 @@
         </div>
     </footer>
     <!--===== Footer Section End =====-->
+         <!-- Floating Scroll to Top Button -->
+     <button class="float-button"><i class="fas fa-arrow-up"></i></button>
+
+     <!--===== Main JS =====-->
+     <script src="/main.js"></script>
+     <script>
+         document.querySelector('.float-button').addEventListener('click', () => {
+             window.scrollTo({ top: 0, behavior: 'smooth' });
+         });
+     </script>
     <!--===== Main JS =====-->
     <script src="/main.js"></script>
 </body>
