@@ -479,6 +479,38 @@ img {
   margin: 0;
 }
 
+/* Floating Button Styles */
+.float-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+    z-index: 1000;
+}
+
+.float-button:hover {
+    background-color: darkblue;
+}
+
+@media (max-width: 600px) {
+    .float-button {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+}
+
+
 /*footer*/
 footer {
   background-color: var(--main-color);
